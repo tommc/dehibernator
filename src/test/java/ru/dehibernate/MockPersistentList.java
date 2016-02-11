@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-import org.hibernate.collection.PersistentList;
+import org.hibernate.collection.internal.PersistentList;
 
 public class MockPersistentList extends PersistentList {
 	private static final long serialVersionUID = -544351173166571231L;
